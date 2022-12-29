@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+<class name="com.developer.Developer">
+<id name="devId">
+   <generator class="identity"/>
+</id>
+<property name="name"/>
+<property name="address"/>
+<property name="gender"/>
+<property name="contactNumber"/>
+<property name="email"/>
+</class>
+</hibernate-mapping>
